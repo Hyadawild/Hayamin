@@ -45,7 +45,7 @@ The application automatically detects and uses available GPU resources. For opti
 1. Clone repo
 
     ```bash
-    git clone https://github.com/xinntao/Real-ESRGAN.git
+    git clone https://github.com/Hyadawild/Ayaya-Upscale.git
     cd Real-ESRGAN
     ```
 
