@@ -8,16 +8,22 @@ An AI-powered image and video upscaling application using deep learning models.
 - Video upscaling with batch processing
 - GPU acceleration support
 - User-friendly Gradio interface
+- Image restoration support
+- image to image conversion support
+- mergeable image creation support
 
 ## Requirements
 
 - Python 3.8+
+- directml (radeon or intel gpu support)
+- 
 - CUDA-capable GPU (optional but recommended)
 - See requirements.txt for full dependencies
 
-## Installation
+## Installation web interface
 
 1. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -44,22 +50,22 @@ The application automatically detects and uses available GPU resources. For opti
 
 1. Clone repo
 
-    ```bash
-    git clone https://github.com/Hyadawild/Ayaya-Upscale.git
-    cd Real-ESRGAN
-    ```
+   ```bash
+   git clone https://github.com/Hyadawild/Ayaya-Upscale.git
+   cd Real-ESRGAN
+   ```
 
 1. Install dependent packages
 
-    ```bash
-    # Install basicsr - https://github.com/xinntao/BasicSR
-    # We use BasicSR for both training and inference
-    pip install basicsr
-    # facexlib and gfpgan are for face enhancement
-    pip install facexlib
-    pip install gfpgan
-    pip install -r requirements.txt
-    python setup.py develop
-    ```
+   ```bash
+   # Install basicsr - https://github.com/xinntao/BasicSR
+   # We use BasicSR for both training and inference
+   pip install basicsr
+   # facexlib and gfpgan are for face enhancement
+   pip install facexlib
+   pip install gfpgan
+   pip install -r requirements.txt
+   python setup.py develop
+   ```
 
 ---
