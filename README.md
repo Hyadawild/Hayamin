@@ -1,6 +1,6 @@
 # Ayaya Upscaler
 
-An AI-powered image and video upscaling application using deep learning models. full features in [colab]([https://github.com/Linaqruf](https://colab.research.google.com/drive/1RFBZw4gEQdg4k3GgqnwiDe6uTZV5wd_Z?usp=sharing))
+An AI-powered image and video upscaling application using deep learning models. full features in [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RFBZw4gEQdg4k3GgqnwiDe6uTZV5wd_Z?usp=sharing)
 
 ## Features
 
